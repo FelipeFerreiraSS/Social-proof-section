@@ -26,6 +26,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  background-image: url("./images/bg-pattern-top-mobile.svg"),
+    url("./images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 10px 0px, 300px 70px;
 }
 
 .main {
@@ -54,6 +59,7 @@ body {
 
 .mainContainer > p {
   color: var(--DarkGrayishMagenta);
+  padding-top: 10px;
 }
 
 .starsContainer {
@@ -76,8 +82,57 @@ body {
   margin: 11px;
 }
 
+#starsLeft {
+  margin-left: -110px;
+}
+
+#starsRight {
+  margin-right: -90px;
+}
+
 .peopleContainer {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   width: 1100px;
   height: 250px;
+}
+
+.peopleContainer > div {
+  width: 350px;
+  height: 220px;
+  background-color: var(--VeryDarkMagenta);
+
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.peopleTitle {
+  display: flex;
+}
+
+.peopleTitle > img {
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.peopleTitle > div > h2 {
+  color: var(--White);
+  font-size: 15px;
+}
+
+.peopleContainer > div > p {
+  color: var(--White);
+  padding-top: 30px;
+}
+
+#peopleTop {
+  margin-top: -40px;
+}
+
+#peopleBottom {
+  margin-bottom: -40px;
 }
