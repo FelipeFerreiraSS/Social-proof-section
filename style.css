@@ -136,3 +136,67 @@ body {
 #peopleBottom {
   margin-bottom: -40px;
 }
+
+@media (max-width: 425px) {
+  body {
+    height: 1070px;
+    width: 792px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    height: 1470px;
+    width: 1092px;
+
+    background-position: 10px 0px, 300px 800px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main {
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -108px;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .peopleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 190px;
+  }
+
+  .peopleContainer > div {
+    margin-bottom: 30px;
+  }
+
+  .mainContainer {
+    text-align: center;
+    margin-left: 315px;
+  }
+
+  .starsContainer {
+    text-align: center;
+    margin-left: 272px;
+    margin-top: -40px;
+    margin-bottom: 55px;
+  }
+
+  #starsLeft {
+    margin-left: 0px;
+  }
+
+  #starsRight {
+    margin-right: 0px;
+  }
+}
