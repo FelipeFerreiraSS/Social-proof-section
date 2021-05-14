@@ -137,13 +137,6 @@ body {
   margin-bottom: -40px;
 }
 
-@media (max-width: 425px) {
-  body {
-    height: 1070px;
-    width: 792px;
-  }
-}
-
 @media (max-width: 768px) {
   body {
     height: 1470px;
@@ -198,5 +191,12 @@ body {
 
   #starsRight {
     margin-right: 0px;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    height: 1740px;
+    width: 425px;
   }
 }
